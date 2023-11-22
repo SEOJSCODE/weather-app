@@ -1,0 +1,85 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-container {
+    min-width: 600px;
+    border: 1px solid #000;
+}
+.search {
+    background-image: url("../img/search.png");
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 15px;
+}
+input::placeholder {
+    font-size: 18px;
+}
+
+/* main block */
+
+.main-info {
+    border-top: 1px solid #000;
+    display: flex;
+}
+
+/* left column */
+.left-column {
+    border-right: 1px solid #000;
+    padding: 20px 16px;
+    width: 50%;
+}
+.deg {
+    font-size: 70px;
+}
+.cloud {
+    text-align: center;
+    margin: 40px 0 60px 0;
+}
+.left-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-left-tex {
+    font-size: 24px;
+}
+.bottom-heart {
+    background-image: url('../img/heart.png');
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* right column */
+.right-column {
+    width: 50%;
+}
+.right-header {
+    padding: 20px 23px;
+    border-bottom: 1px solid #000;
+}
+.locations {
+    font-size: 24px;
+}
+.cities-container {
+    padding: 35px 18px 15px 18px;
+}
+.city {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+
