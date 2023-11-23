@@ -10,8 +10,8 @@ export function renderHtml () {
                 let oneKelvin = Number(273,15)
                 let temp = Number(mainInfo.temp)
                 let temperature = temp - oneKelvin
-                let mainImg = `<img src="${imgUrl}${mainIcon.icon}@2x.png">`
-                deg.textContent = Math.floor(temperature)
+                let mainImg = `<img src="${imgUrl}${mainIcon.icon}@4x.png">`
+                deg.textContent = Math.floor(temperature) + "°"
                 cityBottom.textContent = result.name
                 forecastImg.innerHTML = mainImg
             }
