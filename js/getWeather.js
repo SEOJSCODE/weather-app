@@ -10,10 +10,11 @@ export function getWeather() {
             if(response.status !== 200) {
                 throw new Error('Произошла ошибка')
             }
+            inputValue.value = ''
             return response.json()
+
         })
         .catch(error => console.log(error))
-    inputValue.value = ''
 }
 
 
