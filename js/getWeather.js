@@ -1,5 +1,6 @@
 import {inputValue} from "./globalConst.js";
 
+
 export function getWeather() {
     const serverUrl = 'https://api.openweathermap.org/data/2.5/weather'
     const cityName = inputValue.value

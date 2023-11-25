@@ -4,4 +4,6 @@ export const
     deg = document.querySelector('.deg'),
     cityBottom = document.querySelector('.bottom-left-tex'),
     forecastImg = document.querySelector('.cloud'),
-    imgUrl = 'https://openweathermap.org/img/wn/'
+    imgUrl = 'https://openweathermap.org/img/wn/',
+    listcities = document.querySelector('.cities'),
+    addfavourite = document.querySelector('.bottom-heart')

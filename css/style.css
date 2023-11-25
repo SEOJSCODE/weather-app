@@ -82,6 +82,17 @@ input::placeholder {
     font-size: 24px;
     line-height: 40px;
     font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.delete-button:after {
+    display: inline-block;
+    content: "\00d7";
+    font-size: 25px;
+    align-items: baseline;
+    color: #998899;
+    cursor: pointer;
 }
 
 

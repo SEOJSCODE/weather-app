@@ -2,6 +2,7 @@ import {getWeather} from "./getWeather.js";
 import {deg, cityBottom, forecastImg, imgUrl} from "./globalConst.js";
 
 export function renderHtml () {
+    // showFromFavourite()
     getWeather()
         .then(result => {
             if(result !== undefined) {
